@@ -1,0 +1,8 @@
+{
+    "require": {
+        "phpmailer/phpmailer": "^6.1",
+        "kreait/firebase-php": "^5.9",
+        "aws/aws-sdk-php": "^3.158",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}

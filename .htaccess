@@ -1,0 +1,8 @@
+# RewriteBase should be your project folder name
+# for prod use /
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteCond $1 !^(index\.php|assets|img|js|css|uploads|favicon.png)
+    RewriteBase /simpleapi/
+    RewriteRule ^.*$ index.php [END]
+</IfModule>
