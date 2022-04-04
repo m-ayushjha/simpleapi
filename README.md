@@ -2,7 +2,7 @@
 
 ## Create table "api_user" with
 
-|Field|Type|Nul|Default|Extra|
+|Field|Type|Null|Default|Extra|
 |-----|----|---|-------|-----|
 |user_id|int (unsigned)|NO|NULL|
 |api_key|varchar(50)|NO|NULL|
@@ -16,3 +16,6 @@ add DB connection configs
 ## .htaccess file setup
 add `RewriteBase /your_project_folder_name/` for local
 add `RewriteBase /` for production
+
+## Install packages
+`composer install` to install all the dependencies
